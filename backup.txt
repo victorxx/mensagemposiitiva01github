@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="mensagens positivas as melhores mensagens do seu dia">
+        <meta name="keywords" content="mensagem,positiva,mensagem,asmelhoresmensagens,mensagempositiva,mensagem">
+        <meta name="author" content="Seu Nome ou Empresa">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mensagem positiva as melhores mensagens do seu dia</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: black;
+                align-items: center;
+                text-align: center;
+                color:white;
+            }
+            img {
+                margin: 10px;
+                max-width: 100%; /* Faz com que as imagens se ajustem à largura da tela */
+            }
+            p{
+                font-size: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ok"></div>
+        <script>
+            const linkimagem = [
+"https://i.pinimg.com/474x/e5/cf/0d/e5cf0db616cb92132b066dc916896bca.jpg", "https://i.pinimg.com/474x/f2/e3/43/f2e34393f1910f6abef485f2e331defa.jpg", "https://i.pinimg.com/474x/4c/c4/d1/4cc4d18c4af86d140bf773e283ec66d5.jpg", "https://i.pinimg.com/474x/7f/3c/33/7f3c333f29679140ff084f6a9e04bc17.jpg", "https://i.pinimg.com/474x/0f/1d/2d/0f1d2d693e84619c4eaa898caf9ed47d.jpg", "https://i.pinimg.com/474x/b6/7f/1a/b67f1a46a523ed1a8d653f83dceeaec9.jpg", "https://i.pinimg.com/474x/55/31/71/553171e808ba4bb5e88482d2a7db5f5a.jpg", "https://i.pinimg.com/474x/ee/35/a5/ee35a5b890852093b000fb0afb2d8c74.jpg", "https://i.pinimg.com/474x/a5/2d/1d/a52d1dad4522f2ab4fb7f453bdf28b01.jpg", "https://i.pinimg.com/474x/27/20/f9/2720f94929addbc2496d2ae934039a8f.jpg", "https://i.pinimg.com/474x/64/ac/f8/64acf860748fa44e154e2ac9e0d29dbd.jpg", "https://i.pinimg.com/474x/92/2d/08/922d08b07a90ed365fad8e7e55ce96fa.jpg", "https://i.pinimg.com/474x/50/eb/bc/50ebbcf1b9f1307cb41ccf3e401ae0e0.jpg", "https://i.pinimg.com/474x/f9/4c/a7/f94ca726f1ee583a0f44386cd466a392.jpg", "https://i.pinimg.com/474x/3d/31/da/3d31da70156ef3633cc15687ecc54793.jpg", "https://i.pinimg.com/474x/64/08/f5/6408f5f796b3c0a8a408b89d7a148427.jpg", "https://i.pinimg.com/474x/78/89/31/7889319f184c14559b068e5940a6ef1c.jpg", "https://i.pinimg.com/474x/1e/12/8a/1e128a6f045f5be048f06b801541ef6a.jpg", "https://i.pinimg.com/474x/4d/75/e5/4d75e569ef3b9ea891931542386d74f2.jpg", "https://i.pinimg.com/474x/ee/22/ff/ee22ff6beb8519ac2ea8d6db3b07819c.jpg", "https://i.pinimg.com/236x/c4/9e/fe/c49efee86a80523dbc3840f45f4771ab.jpg", "https://i.pinimg.com/236x/53/90/7b/53907b8481ef6c5fd671bcdf52fb7c43.jpg", "https://i.pinimg.com/236x/71/32/c6/7132c6ca2704a65d84865d113dc4b5b5.jpg", "https://i.pinimg.com/236x/69/bc/92/69bc925e261f72c080abdeb31eda3521.jpg", "https://i.pinimg.com/236x/98/6b/e5/986be576dcec930dd00a815ff560dc67.jpg", "https://i.pinimg.com/236x/d3/5f/db/d35fdb74032f5063e665ab6901b0b114.jpg", "https://i.pinimg.com/236x/52/c7/d8/52c7d8b564615eacbd6fa6fd4c444ff3.jpg", "https://i.pinimg.com/236x/44/a3/7b/44a37be594ea33323f11b3b6818d5f69.jpg", 
+"https://i.pinimg.com/236x/e0/fe/6b/e0fe6be8cac38af8d3392f3746956d22.jpg", "https://i.pinimg.com/236x/43/df/11/43df1165c3607a16884b2c7e3522627c.jpg", "https://i.pinimg.com/236x/b6/62/c7/b662c7c1b84862965ac594f35337c430.jpg", "https://i.pinimg.com/236x/4c/ee/13/4cee13283c981069df28e20043aa203d.jpg"
+
+            ];
+
+            linkimagem.forEach(imagem => {
+                const tagimg = document.createElement('img');
+                tagimg.src = imagem;
+                tagimg.alt = "Imagem dinâmicas";
+
+                const p = document.createElement('p');
+                p.innerHTML = 'SEGUROS 027 99949-7001<br><a href="https://victorxx.github.io/VPSVENDA/contatoroberto.html">CONTATO CORRETOR</a><br><br><br> CRÉDITO PESSOAL-> <a href="https://www.geocredibnk.com.br/" target="_blank">Crédito pessoal</a><br><br><a href="https://victorxx.github.io/relexao01git/">VAMOS RIR</a>';
+
+                const container = document.createElement('div');
+                container.appendChild(tagimg);
+                container.appendChild(p);
+
+                document.getElementById('ok').appendChild(container);
+            });
+        </script>
+    </body>
+</html>
